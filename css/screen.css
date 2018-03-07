@@ -6,12 +6,14 @@ html{
     padding: 24px 24px 0;
 }
 
-::-moz-selection, ::selection{
+::selection{
     background: #E85E00;
     color: white;
     text-shadow: none;
 }
 
-::selection{
-
+::-moz-selection{
+    background: #E85E00;
+    color: white;
+    text-shadow: none;
 }
