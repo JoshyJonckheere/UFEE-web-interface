@@ -1,5 +1,3 @@
-HTML boilerplate Joshy Jonckheere
+# Html boilerplate ** Joshy Jonckheere **
 
-Dit is de boilerplate die ik zal gebruiken bij het schrijven van html
-
-deze readme wordt waarschijnlijk later nog aangepast
+This is my boilerplate that I will be using throughout all my projects that require a HTML file.
