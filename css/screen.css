@@ -1,9 +1,13 @@
 html{
-    font-size: 16px;
+    font-size: 62.5%;
     line-height: 1.5;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #111;
-    padding: 24px 24px 0;
+    padding: 2.4rem 2.4rem 0;
+}
+
+body{
+    font-size: 1.6rem;
 }
 
 ::selection{
@@ -16,4 +20,96 @@ html{
     background: #E85E00;
     color: white;
     text-shadow: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 3.6rem;
+    font-weight: normal;
+    line-height: 4rem;
+    margin: 0 0 4.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    margin: 0 0 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 0 0 2.4rem;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin: 0 0 2.4rem;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+    margin: 0 0 2.4rem;
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    margin: 0 0 2.4rem;
+    font-family: "Times New Roman", serif;
+}
+
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+figcaption {
+    font-size: 2.4rem;
+    line-height: 1.6rem;
+    padding-top: 0.8rem;
+    color: grey;
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
 }
