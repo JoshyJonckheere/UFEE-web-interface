@@ -96,19 +96,23 @@ figcaption {
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 2.4rem;
 }
 
 a {
-
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
 }
 
 a:hover,
 a:focus {
-
+    color: crimson;
 }
 
 a:visited,
 a:active {
-
+    color: BlueViolet;
 }
