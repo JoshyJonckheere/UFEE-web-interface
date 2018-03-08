@@ -66,14 +66,13 @@ figure {
 }
 
 ul,
-ol,
-blockquote {
-
+ol{
+    padding-left: 2.4rem;
 }
 
 li ul,
 li ol{
-
+    margin-bottom: 0;
 }
 
 blockquote {
