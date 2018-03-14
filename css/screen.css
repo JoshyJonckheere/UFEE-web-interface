@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 62.5%;
     line-height: 1.5;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -6,23 +6,23 @@ html{
     padding: 2.4rem 2.4rem 0;
 }
 
-body{
+body {
     font-size: 1.6rem;
 }
 
-::selection{
+::selection {
     background: #E85E00;
     color: white;
     text-shadow: none;
 }
 
-::-moz-selection{
+::-moz-selection {
     background: #E85E00;
     color: white;
     text-shadow: none;
 }
 
-img{
+img {
     max-width: 100%;
     vertical-align: top;
 }
@@ -47,31 +47,21 @@ h3 {
     margin: 0 0 2.4rem;
 }
 
-h4,
-h5,
-h6 {
+h4, h5, h6 {
     font-size: 1.6rem;
     line-height: 2.4rem;
     margin: 0 0 2.4rem;
 }
 
-p,
-ol,
-ul,
-dl,
-table,
-address,
-figure {
+p, ol, ul, dl, table, address, figure {
     margin: 0 0 2.4rem;
 }
 
-ul,
-ol{
+ul, ol {
     padding-left: 2.4rem;
 }
 
-li ul,
-li ol{
+li ul, li ol {
     margin-bottom: 0;
 }
 
@@ -107,12 +97,21 @@ a {
     transition: all .1s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:visited, a:active {
+    color: BlueViolet;
+}
+
+a:hover, a:focus {
     color: crimson;
 }
 
-a:visited,
-a:active {
-    color: BlueViolet;
+@media (min-width: 76.8rem) {
+    html {
+        padding: 4.8rem 4.8rem 2.4rem;
+    }
+
+    h1 {
+        font-size: 5.8rem;
+        line-height: 6.4rem;
+    }
 }
