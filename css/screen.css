@@ -4,6 +4,8 @@ html {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #111;
     padding: 2.4rem 2.4rem 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
