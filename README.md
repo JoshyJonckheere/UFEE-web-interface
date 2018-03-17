@@ -1,3 +1,17 @@
-# Html boilerplate <u>Joshy Jonckheere</u>
+# UFEE webinterface
 
-This is my boilerplate that I will be using throughout all my projects that require a HTML file.
+This is the webinterface that will be used to communicate with the ufee coffeemachine.
+
+<u>functions of this website:</u>
+* Personalising your coffees
+* brewing coffees
+* viewing usage statistics
+* setting an alarm (with coffee connected to it)
+* checking stats:
+** water levels
+** coffee levels
+** cup placed?
+
+Dynamic part: FLASK (python)
+
+<u>By Joshy Jonckheere</u>
